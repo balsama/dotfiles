@@ -27,9 +27,6 @@ prompt() {
 
 PROMPT_COMMAND=prompt
 
-alias ls="ls --color"
-alias ll="ls -l"
-
 # Symfony aliases
 alias sf="./app/console"
 alias sfp="./app/console -e=prod"

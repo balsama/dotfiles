@@ -4,7 +4,7 @@
 [color]
     ui = true
 [core]
-    excludesfile = /home/acount/.gitignore
+    excludesfile = /Users/adambalsam/.gitignore
 [alias]
     st = status
     ci = commit
@@ -19,3 +19,9 @@
     insteadOf = gh:
 [push]
     default = current
+[difftool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true

@@ -1,3 +1,6 @@
-tags
-vendor.tags
-Guardfile
+*.swp
+*.swo
+*~
+.DS_Store
+_php_error.log
+default/files

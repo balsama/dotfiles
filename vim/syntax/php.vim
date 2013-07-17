@@ -642,3 +642,8 @@ if main_syntax == 'php'
 endif
 
 " vim: ts=8 sts=2 sw=2 expandtab
+
+php_sql_query = 1
+php_html_in_strings = 1
+php_parent_error_close = 1
+php_parent_error_open = 1
