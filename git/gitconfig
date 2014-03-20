@@ -1,10 +1,10 @@
 [user]
-    name = Adam Balsam
-    email = balsam.adam@gmail.com
+	name = Adam Balsam
+	email = abalsam@bostoninteractive.com
 [color]
     ui = true
 [core]
-    excludesfile = /Users/adambalsam/.gitignore
+	excludesfile = /Users/abalsam/.gitignore_global
 [alias]
     st = status
     ci = commit
@@ -20,8 +20,8 @@
 [push]
     default = current
 [difftool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
