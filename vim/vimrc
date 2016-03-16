@@ -98,8 +98,9 @@ set encoding=utf-8
 " Syntax & File types
 "
 
-syntax enable                       " Enable syntax highlighting
+syntax enable         " Enable syntax highlighting
 filetype on           " enable file type detection
+filetype off
 filetype plugin on    " load plugins specific to file type
 filetype indent on    " ... and indentation too
 
@@ -108,6 +109,9 @@ au BufNewFile,BufRead *.twig set ft=htmljinja
 
 " Use the haskell filetype for hss files
 au BufNewFile,BufRead *.hsc set ft=haskell
+
+" Use php syntax for drupal .profile files
+au BufNewFile,BufRead *.profile set ft=php
 
 " Highlight trailing whitespaces
 highlight ExtraWhitespace ctermbg=red guibg=red

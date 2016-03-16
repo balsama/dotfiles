@@ -69,3 +69,5 @@ function ghc-pkg-clean() {
         echo unregistering $p; ghc-pkg $* unregister $p
     done
 }
+
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"

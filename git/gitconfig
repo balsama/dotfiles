@@ -1,10 +1,11 @@
 [user]
 	name = Adam Balsam
-	email = abalsam@bostoninteractive.com
+	email = adam.balsam@acquia.com
 [color]
     ui = true
 [core]
-	excludesfile = /Users/abalsam/.gitignore_global
+	excludesfile = /Users/adam.balsam/.gitignore_global
+	editor = /usr/local/bin/vim
 [alias]
     st = status
     ci = commit
